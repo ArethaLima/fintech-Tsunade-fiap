@@ -1,0 +1,108 @@
+
+:root{
+    --cinza-escuro: #606C5D;
+    --azul: #526D82;
+    --branco: #ffffff;
+    --fonte-pricncipal: 'Barlow', sans-serif;
+}
+
+body{
+    font-family: 'Barlow', sans-serif;
+}
+
+.logo_principal{
+    width: 60%
+}
+
+input[type=checkbox] {
+    border: 2px solid var(--azul);
+    box-shadow: none;
+}
+
+input[type=checkbox]:checked,
+input[type="checkbox"]:focus {
+  background-color: var(--azul);
+  border-color: var(--azul);
+  box-shadow: none;
+  outline: none;
+}
+
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.banner-1{
+    background-image: url(../images/fundo_efeito.png);
+}
+
+.banner-2{
+    background-image: url(../images/app_tsunade.png);
+}
+
+.banner-titulo{
+    --bs-bg-opacity: 0.5;
+}
+
+.botao-padrao{
+    background-color: var(--azul);
+    border-color: #526D82;
+    color: var(--branco);
+
+}
+
+.botao-padrao:hoover{
+    background-color: var(--cinza-escuro);
+}
+
+.card-text{
+    text-align: justify;
+}
+
+.container{
+    margin-left: 3em;
+    margin-top: 2em;
+}
+
+.container-login{
+    margin: 10em;
+}
+
+.accordion-body{
+    text-align: justify;
+}
+
+.button{
+    background-color: var(--azul);
+    border-color: #526D82;
+    color: var(--branco);
+    padding: 0.5em;
+    margin: 2em;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.botao{
+    background-color: var(--azul);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    border-color: var(--azul);
+    padding: 10px;
+}
+
+.texto{
+    padding-bottom: 1em;
+}  
+
+footer{
+background-color: var(--azul);
+color: var(--branco);
+padding-bottom: 0;
+margin-top: 2em;
+}

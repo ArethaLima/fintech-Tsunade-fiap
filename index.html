@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./assets/images/logo_tsunade.png" type="image/x-icon">
+
+        <title>Tsunade</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" 
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylechhet" href="./login.html">
+        
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar-expand-lg  navbar bg-body-tertiary fixed-top">
+                <div class="container-fluid">
+
+                    <a class="navbar-brand" href="#">
+                        <img class="logo_principal" src="./assets/images/tsunade_01.png" alt="Logomarca da Fintech Tsunade">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                            <img src="./assets/images/logo_tsunade.png" alt="Logo da Fintech Tsunade">
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+                                <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Início</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="#sobre">Sobre</a>
+                                </li> 
+                                <li class="nav-item">
+                                <a class="nav-link" href="#contato">Contato</a>
+                                </li> 
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./login.html">Login</a>
+                                    </li> 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="banner banner-1 d-flex flex-column justify-content-center text-center">
+                <div class="banner-titulo bg-body-secondary py-5">
+                <h2 class="fw-bold">Organizar as finanças é mais simples do que você imagina.</h2>
+                <p>Boas-vindas a Tsunade! Sua melhor aliada.</p>
+                </div>
+            </section>
+
+            <section class="py-5">
+                <h2 class="text-center fw-bold pb-5">Nossos serviços</h2>
+
+                <div class="container d-flex justify-content-around flex-wrap"> 
+
+                    <div class="card m-4" style="width: 20rem;">
+                        <img class="card-img-top" src="./assets/images/analise_financeira.jpg" alt="imagem de um computador, celular e um gráfico">
+                        <div class="card-body">
+                            <h5 class="card-title py-4 fw-bold">Controle financeiro</h5>
+                            <p class="card-text">Para evitar gastos desnecessários que comprometam a sua renda e para que você tenha que se preocupar menos no final do mês, é preciso investir no controle financeiro.</p>
+                            <a class="btn botao-padrao w-100 fw-bold mt-2 btn-dark" href="#"  data-bs-toggle="offcanvas" data-bs-target="#canvas-1" aria-controls="offcanvasRight">Quero detalhes</a>
+                        </div>    
+                    </div>
+
+                    <div class="card m-4" style="width: 20rem;">
+                        <img src="./assets/images/poupanca_investimento.jpg" class="card-img-top" alt="Uma pessoa mexendo no celular">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Poupança e Investimento</h5>
+                            <p class="card-text">Ao poupar ou investir, você acumula valores financeiros no presente para serem utilizados no futuro. Os valores poupados poderão fazer uma diferença significativa na sua qualidade de vida no futuro. </p>
+                            <a href="#" class="btn botao-padrao w-100 fw-bold mt-4 btn-dark" href="#"  data-bs-toggle="offcanvas" data-bs-target="#canvas-2" aria-controls="offcanvasRight">Quero detalhes</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-5">
+
+                <div class="container d-flex justify-content-around flex-wrap">
+                    <div class="card m-4" style="width: 20rem;">
+                        <img src="./assets/images/rastreamento_despesas.jpg" class="card-img-top" alt="Máquina de cartão e celular">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Rastreamento de despesas</h5>
+                            <p class="card-text">O Rastreamento de despesas identifica as despesas fixas e despesas variáveis, fornecendo uma visão detalhada das finanças pessoais em um único lugar.</p>
+                            <a href="#" class="btn botao-padrao w-100 fw-bold mt-5 btn-dark" href="#"  data-bs-toggle="offcanvas" data-bs-target="#canvas-3" aria-controls="offcanvasRight">Quero detalhes</a>
+                        </div>  
+                    </div>
+
+                    <div class="card m-4" style="width: 20rem;">
+                        <img src="./assets/images/pagamentos_transferencia.jpg" class="card-img-top" alt="Uma mesa com computador e uma pessoa segurando um cartão bancário">
+                        <div class="card-body">
+                            <h5 class="card-title py-1 fw-bold">Pagamentos e Transferências</h5>
+                            <p class="card-text">As formas de pagamento tem o objetivo de organizar, visualizar e gerenciar todos os lançamentos financeiros no sistema. </p>
+                            <a href="#" class="btn botao-padrao w-100 fw-bold mt-5 btn-dark" href="#"  data-bs-toggle="offcanvas" data-bs-target="#canvas-4" aria-controls="offcanvasRight">Quero detalhes</a>
+                        </div>
+                </div>
+            </section>
+
+            <section class="banner banner-2 d-flex flex-column justify-content-center text-center" id="sobre">
+              <div class="banner-titulo bg-body-secondary py-5">
+                <h2 class="fw-bold">Aplicativo Tsunade</h2>
+                <p>A fintech que oferece soluções financeiras menos burocráticas, inovadoras e mais intuitivas para você.</p>
+              </div>
+            </section>
+
+
+            <section class="py-5">
+              <h2 class="fw-bold text-center pb-5">Seu controle financeiro começa aqui</h2>
+
+                <div class="row mx-0">  
+                  
+                    <div class="card border-0 mx-auto btn" style="width: 18rem;">
+                        <img src="./assets/images/saldo.jpg" class="card-img-top" alt="imagem de um rapaz no caixa eletrônico.">
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Saldo</h5>
+                      </div>
+                    </div>
+
+                    <div class="card border-0 mx-auto btn" style="width: 18rem;">
+                        <img src="./assets/images/renda.jpg" class="card-img-top" alt="imagem de uma mesa com papeis, celular e computador.">
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Renda</h5>
+                      </div>
+                    </div>
+
+                    <div class="card border-0 mx-auto btn" style="width: 18rem;">
+                        <img src="./assets/images/open_finance.jpg" class="card-img-top" alt="imagem de um computador e um celular.">
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Open Finance</h5>
+                      </div>
+                    </div>
+
+                </div>    
+            </section>  
+
+            <section class="py-5">
+              <div class="row mx-0">
+                  <div class="card border-0 mx-auto btn" style="width: 18rem;">
+                      <img src="./assets/images/despesas.jpg" class="card-img-top" alt="imagem de uma calculadora, dinheiro e caderno.">
+                    <div class="card-body text-center">
+                      <h5 class="card-title fw-bold">Despesas fixas e variáveis</h5>
+                    </div>
+                  </div>
+
+                  <div class="card border-0 mx-auto btn" style="width: 18rem;">
+                      <img src="./assets/images/faturas.jpg" class="card-img-top" alt="imagem de um cartão de crédito.">
+                    <div class="card-body text-center">
+                      <h5 class="card-title fw-bold">Faturas</h5>
+                    </div>
+                  </div>
+
+                  <div class="card border-0 mx-auto btn" style="width: 18rem;">
+                      <img src="./assets/images/pagamentos.jpg" class="card-img-top" alt="imagem de duas pessoas trocando dinheiro.">
+                    <div class="card-body text-center">
+                      <h5 class="card-title fw-bold">Pagamentos</h5>
+                    </div>
+                  </div>
+              </div>
+            </section>  
+
+            <section class=" mx-0 container">
+              <div class=" mx-0 container border border-2 rounded p-3">
+                <h3 class="fw-bold p-3">Entre em contato!</h3>
+                <form id="contato">
+
+                    <div class="form-floating mb-3">
+                      <input type="text" class="form-control" id="floatingNome" placeholder="Nome">
+                      <label for="floatingNome">Nome</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                      <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com">
+                      <label for="floatingEmail">Email</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                      <input type="text" class="form-control" id="floatingTelefone" placeholder="Telefone">
+                      <label for="floatingTelefone">Telefone</label>
+                    </div>
+
+                    <select class="form-select mb-3" aria-label="Default select example">
+                      <option selected>Preferência de contato</option>
+                      <option value="1">Email</option>
+                      <option value="2">Whatsapp</option>
+                    </select>
+
+                    <div class="d-grid gap-2">
+                      <button type="button" class="botao btn btn-secondary btn-sm">Enviar</button>
+                    </div>
+
+                </form>
+              </div>
+            </section>
+
+        </main>
+          
+        <div class="canvas">
+            <!-- canva-1 -->
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-1" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Controle financeiro</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button botao-padrao" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Estabeleça metas para economizar
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>A economia não pode ser feita somente com o dinheiro que sobrou no final do mês. Ela deve ser um objetivo, pois assim você não só monitora suas despesas como também passa a ter uma projeção financeira.</p>
+                               <p>Para isso, você pode determinar um valor mensal para reservar e, ao receber o salário, separar imediatamente essa quantia em um lugar diferente da conta que você usa para os gastos diários. Como por exemplo a poupança.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed botao-padrao" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Restrinja gastos
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Da mesma forma que você deve estipular metas para economizar, uma boa ideia é definir metas para os gastos, estabelecendo um limite máximo por mês que pode ser empregado em cada tipo de despesa.</p> 
+                                <p>Você pode fazer essa divisão por categorias, por exemplo:
+                                15% com supermercado;
+                                10% com lazer;
+                                5% com vestuário e demais acessórios.</p>
+                                Isso não significa que você deve gastar esse valor todo mês, mas sim que é o máximo que pode investir em cada modalidade. Esse é um grande avanço no seu processo para organizar as finanças pessoais.  
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed botao-padrao" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Fique longe de dívidas
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Caso você não tenha dívidas, já está indo por um bom caminho em relação ao controle das finanças pessoais. Contudo, caso tenha, esse é o primeiro problema que deve solucionar para se organizar financeiramente.</p>
+                                <p>Contas em atraso acarretam outros custos, já que taxas e juros são cobrados e tiram a chance de você economizar e se controlar. Nessas situações, todo o dinheiro que entra é gasto com pagamentos das contas, e o objetivo principal passa a ser quitar a dívida.</p>
+                                <p>Como forma de resolver esse problema, você pode tentar renegociar ou parcelar a dívida, e ficar livre dessa “pedra” no seu projeto de organização financeira.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    
+                </div>
+
+            </div>
+
+            <!-- canva-2 -->
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-2" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Poupança e Investimento</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button botao-padrao" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Poupança
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <p>A poupança é uma aplicação de renda fixa simples e acessível para todo mundo. Até menores de idade também podem ter uma conta em seu nome, desde que sejam representados ou assistidos pelo pai, mãe ou responsável legal.</p>
+                              <p>Para ter acesso, basta escolher um banco de sua preferência, apresentar alguns documentos necessários para a abertura da conta e aguardar a aprovação.Vale destacar que a rentabilidade da poupança é a mesma em qualquer instituição.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="botao-padrao accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Investimento
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <p>O que é investimento financeiro? Basicamente é aplicar dinheiro para que ele produza rendimentos no futuro. Isso é possível por conta do efeito dos juros compostos sobre as aplicações financeiras, que faz com que o dinheiro se multiplique.</p>
+                              <p>O primeiro passo para investir é conhecer o próprio perfil de investidor. Isso é importante porque nem todas as modalidades de aplicações financeiras são adequadas para todos as pessoas: algumas tolerarão maior risco, outras não.</p>
+                              <p></p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="botao-padrao accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Como começar a investir?
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <p>Depois de entender melhor o que são investimentos e qual é o seu perfil, que tal começar a investir? Uma boa maneira de entrar nesse universo é fazer um levantamento de todos os aspectos da sua situação financeira atual: suas fontes de renda, suas dívidas e suas despesas fixas. Assim, é possível saber o quanto você pode aplicar.Atualmente, existem diversas aplicações disponíveis no mercado e elas servem aos mais diferentes perfis de investidores.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+            <!-- canva-3 -->
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-3" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Rastreamento de despesas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="botao-padrao accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Planejamento financeiro
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <p>Ter um bom controle financeiro é uma das principais maneiras de cuidar do seu dinheiro. Neste sentido, é fundamental saber como classificar gastos pessoais para conseguir se organizar melhor.
+
+                              <p>Criar uma rotina referente a este assunto pode ajudar não apenas a conquistar um bem-estar financeiro, mas também a evitar dívidas e ter um planejamento para o futuro.</p>
+
+                              <p>O endividamento e a desorganização financeira, infelizmente, assolam boa parte das famílias brasileiras. Foi o que mostrou uma pesquisa da Confederação Nacional do Comércio, Bens, Serviços e Turismo (CNC). Segundo ela, 3 em cada 10 famílias estão endividadas.</p>
+
+                              <p>Se você é uma das pessoas inseridas nesse número, chegou ao lugar certo! Sabia que entender como classificar gastos pessoais pode te ajudar, e muito, a sair do labirinto das dívidas?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="botao-padrao accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Como classificar gastos pessoais?
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <p>O primeiro passo para se organizar com seus gastos pessoais é anotar tudo o que entra de dinheiro no seu mês. Não tem como classificar gastos pessoais de maneira eficiente se você não visualiza quanto  está ganhando no mês vigente. Essa é uma das principais dicas para ter um bom planejamento financeiro. Assim, terá mais noção se o seu consumo é coerente com o valor ou não.</p>
+                              <p>- Registre todas as despesas do mês.</p>
+                              <p>- Identifique a origem das despesas.</p>
+                              <p>- Crie categorias para as contas.</p>
+                              <p>- Analise o que pode melhorar</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="botao-padrao accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Como ter um bom controle de finanças pessoais?
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <p>Até aqui você já entendeu a importância de classificar e criar categorias de despesas pessoais. Mas, qual a melhor maneira de visualizar o que entra e o que sai no seu bolso?
+                                <strong>Faça o <a href="#">download</a> do Tsunade a ferramenta que pode te ajudar.</strong> </p>
+                              <p>O Tsunade é um aplicativo que permite o cadastro e o acompanhamento financeiro com a possibilidade de integrar os dados de conta das principais instituições financeiras do país. Assim, é possível verificar o saldo disponível e organizar as contas.</p>
+                              <p>Dessa maneira, você consegue receber um demonstrativo dos lançamentos do mês, podendo organizar as contas em categorias e subcategorias.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+            <!-- canva-4 -->
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-4" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Pagamentos e Transferências</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="botao-padrao accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Sistema de pagamento
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <p>Um sistema de pagamento é qualquer sistema usado para liquidar transações financeiras por meio da transferência de valor monetário. Isso inclui as instituições, instrumentos de pagamento como cartões de pagamento, pessoas, regras, procedimentos, padrões e tecnologias que tornam possível sua troca.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="botao-padrao accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Formas de pagamentos
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <p>As formas de pagamento são os métodos disponibilizados por uma empresa para que os clientes paguem pela compra de um produto ou serviço. As principais formas de pagamento disponíveis no mercado são:</p>
+                              <p>- Dinheiro em espécie</p>
+                              <p>- Cartão de crédito</p>
+                              <p>- Boleto Bancário</p>
+                              <p>- Pix</p>
+                              <p>- Cartão de débito</p>
+                              <p>- Voucher online</p>
+                              <p>- Carteiras digitais</p>
+                              <p>- WhatsApp Pay</p>
+                              <p>- Link de pagamento</p>
+                              <p>- Crediário</p>
+                              <p>- Cartão da loja</p>
+                              <p>- Transferência bancária</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    </body>
+
+    <footer>
+        <div class=" text-center p-3">
+            2023 <i class="bi bi-c-circle"></i> Desenvolvido por Aretha Lima | Projeto fictício sem fins comerciais.
+        </div>
+    </footer>
+</html>
